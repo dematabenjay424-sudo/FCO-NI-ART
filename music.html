@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Music | ARTEUM</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <nav>
+      <div class="logo">ARTEUM</div>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+
+        <!-- GALLERY DROPDOWN -->
+        <div class="dropdown">
+          <!-- Gallery text is not clickable -->
+          <span class="gallery-label">Gallery</span>
+
+          <!-- ONLY THE ARROW IS CLICKABLE -->
+          <button
+            class="dropdown-btn"
+            type="button"
+            aria-label="Open Gallery menu"
+          >
+            ▾
+          </button>
+
+          <!-- DROPDOWN MENU -->
+          <div class="dropdown-menu">
+            <a href="sculpture.html">Sculpture</a>
+            <a href="photography.html">Photography</a>
+            <a href="music.html">Music</a>
+            <a href="drama.html">Drama</a>
+            <a href="painting.html">Painting</a>
+          </div>
+        </div>
+
+        <a href="index.html#about">About</a>
+      </div>
+    </nav>
+
+    <!-- =========================
+         MUSIC HEADER
+    ========================== -->
+
+    <header class="art-header music-header">
+      <p class="eyebrow">ART FORM 03</p>
+
+      <h1>Music</h1>
+
+      <p>
+        Explore influential musical works that have shaped the history and
+        development of music.
+      </p>
+    </header>
+
+    <!-- =========================
+         MUSIC GALLERY
+    ========================== -->
+
+    <main class="music-gallery">
+      <div class="music-grid">
+        <!-- MUSIC 01 -->
+        <article class="music-card">
+          <div class="painting-image">
+            <img
+              src="assets/images/music/Für Elise.jpg"
+              alt="Für Elise by Ludwig van Beethoven"
+            />
+          </div>
+
+          <div class="music-info">
+            <p class="art-number">01 / 06</p>
+
+            <h2>Für Elise</h2>
+
+            <p class="artist">Ludwig van Beethoven</p>
+
+            <p class="details">1810 • Classical</p>
+
+            <p class="description">
+              One of Beethoven's most recognizable piano compositions, known for
+              its memorable and gentle melody.
+            </p>
+
+            <audio controls>
+              <source src="assets/audio/Beethoven.mp3" type="audio/mpeg" />
+
+              Your browser does not support the audio element.
+            </audio>
+
+            <button
+              class="view-artwork"
+              data-title="Für Elise"
+              data-artist="Ludwig van Beethoven"
+              data-year="1810"
+              data-material="Classical"
+              data-description="Für Elise is one of Ludwig van Beethoven’s most recognizable piano compositions. It features a gentle, memorable melody that creates a sense of elegance and intimacy. The piece moves between soft, reflective passages and more expressive sections, showcasing Beethoven’s ability to combine simplicity with emotional depth. Its delicate piano notes make it a timeless example of classical music."
+            >
+              View Details →
+            </button>
+          </div>
+        </article>
+
+        <!-- MUSIC 02 -->
+        <article class="music-card">
+          <div class="painting-image">
+            <img
+              src="assets/images/music/Clair de Lune.jpg"
+              alt="Clair de Lune by Claude Debussy"
+            />
+          </div>
+
+          <div class="music-info">
+            <p class="art-number">02 / 06</p>
+
+            <h2>Clair de Lune</h2>
+
+            <p class="artist">Claude Debussy</p>
+
+            <p class="details">1905 • Impressionist</p>
+
+            <p class="description">
+              A soft and atmospheric piano piece recognized for its peaceful and
+              dreamlike character.
+            </p>
+
+            <audio controls>
+              <source src="assets/audio/Debussy.mp3" type="audio/mpeg" />
+
+              Your browser does not support the audio element.
+            </audio>
+
+            <button
+              class="view-artwork"
+              data-title="Clair de Lune"
+              data-artist="Claude Debussy"
+              data-year="1905"
+              data-material="Impressionist"
+              data-description="Clair de Lune, meaning “Moonlight” in French, is a beautiful piano composition known for its dreamy and peaceful atmosphere. Claude Debussy uses flowing melodies, soft harmonies, and gentle changes in dynamics to create the feeling of moonlight shining across a quiet landscape. The music is often associated with calmness, imagination, and beauty, making it one of the most beloved works of Impressionist classical music."
+            >
+              View Details →
+            </button>
+          </div>
+        </article>
+
+        <!-- MUSIC 03 -->
+        <article class="music-card">
+          <div class="painting-image">
+            <img
+              src="assets/images/music/The Four Seasons.jpg"
+              alt="The Four Seasons by Antonio Vivaldi"
+            />
+          </div>
+
+          <div class="music-info">
+            <p class="art-number">03 / 06</p>
+
+            <h2>The Four Seasons</h2>
+
+            <p class="artist">Antonio Vivaldi</p>
+
+            <p class="details">1725 • Baroque</p>
+
+            <p class="description">
+              A collection of four violin concertos representing the changing
+              seasons through music.
+            </p>
+
+            <audio controls>
+              <source src="assets/audio/Tchaikovsky.mp3" type="audio/mpeg" />
+
+              Your browser does not support the audio element.
+            </audio>
+
+            <button
+              class="view-artwork"
+              data-title="The Four Seasons"
+              data-artist="Antonio Vivaldi"
+              data-year="1725"
+              data-material="Baroque"
+              data-description="The Four Seasons is a collection of four violin concertos by Antonio Vivaldi, each representing a different season of the year: Spring, Summer, Autumn, and Winter. The music captures the sounds and moods of nature through lively violin melodies, dramatic rhythms, and expressive musical passages. From the cheerful sounds of birds in Spring to the powerful storms of Summer, Vivaldi’s composition brings the changing seasons to life through music."
+            >
+              View Details →
+            </button>
+          </div>
+        </article>
+
+        <!-- MUSIC 04 -->
+        <article class="music-card">
+          <div class="painting-image">
+            <img
+              src="assets/images/music/Nocturne.jpg"
+              alt="Nocturne in E-flat Major by Frédéric Chopin"
+            />
+          </div>
+
+          <div class="music-info">
+            <p class="art-number">04 / 06</p>
+
+            <h2>Nocturne in E-flat Major</h2>
+
+            <p class="artist">Frédéric Chopin</p>
+
+            <p class="details">1832 • Romantic</p>
+
+            <p class="description">
+              A lyrical piano composition known for its expressive melody and
+              elegant musical style.
+            </p>
+
+            <audio controls>
+              <source src="assets/audio/Nocturne.mp3" type="audio/mpeg" />
+
+              Your browser does not support the audio element.
+            </audio>
+
+            <button
+              class="view-artwork"
+              data-title="Nocturne in E-flat Major"
+              data-artist="Frédéric Chopin"
+              data-year="1832"
+              data-material="Romantic"
+              data-description="Chopin’s Nocturne in E-flat Major, Op. 9 No. 2 is a graceful piano piece celebrated for its lyrical melody and expressive beauty. The music has a gentle, singing quality, supported by flowing accompaniment and subtle changes in rhythm and dynamics. Its peaceful and romantic character creates an atmosphere of reflection and elegance, making it a classic example of Chopin’s expressive piano style."
+            >
+              View Details →
+            </button>
+          </div>
+        </article>
+
+        <!-- MUSIC 05 -->
+        <article class="music-card">
+          <div class="painting-image">
+            <img
+              src="assets/images/music/Eine kleine Nachtmusik.jpg"
+              alt="Eine kleine Nachtmusik by Wolfgang Amadeus Mozart"
+            />
+          </div>
+
+          <div class="music-info">
+            <p class="art-number">05 / 06</p>
+
+            <h2>Eine kleine Nachtmusik</h2>
+
+            <p class="artist">Wolfgang Amadeus Mozart</p>
+
+            <p class="details">1787 • Classical</p>
+
+            <p class="description">
+              A famous serenade recognized for its lively melodies, balanced
+              structure, and elegant classical style.
+            </p>
+
+            <audio controls>
+              <source src="assets/audio/Eine.mp3" type="audio/mpeg" />
+
+              Your browser does not support the audio element.
+            </audio>
+
+            <button
+              class="view-artwork"
+              data-title="Eine kleine Nachtmusik"
+              data-artist="Wolfgang Amadeus Mozart"
+              data-year="1787"
+              data-material="Classical"
+              data-description="Eine kleine Nachtmusik, which translates to “A Little Night Music,” is one of Mozart’s most famous compositions. It is a lively and elegant serenade featuring bright melodies, balanced musical phrases, and energetic rhythms. The piece demonstrates Mozart’s ability to create music that is both joyful and sophisticated. Its cheerful sound and memorable opening make it a popular example of the Classical period."
+            >
+              View Details →
+            </button>
+          </div>
+        </article>
+
+        <!-- MUSIC 06 -->
+        <article class="music-card">
+          <div class="painting-image">
+            <img
+              src="assets/images/music/Swan Lake.jpg"
+              alt="Swan Lake by Pyotr Ilyich Tchaikovsky"
+            />
+          </div>
+
+          <div class="music-info">
+            <p class="art-number">06 / 06</p>
+
+            <h2>Swan Lake</h2>
+
+            <p class="artist">Pyotr Ilyich Tchaikovsky</p>
+
+            <p class="details">1876 • Romantic / Ballet</p>
+
+            <p class="description">
+              A celebrated ballet score known for its dramatic melodies,
+              orchestration, and emotional storytelling.
+            </p>
+
+            <audio controls>
+              <source src="assets/audio/The Making.mp3" type="audio/mpeg" />
+
+              Your browser does not support the audio element.
+            </audio>
+
+            <button
+              class="view-artwork"
+              data-title="Swan Lake"
+              data-artist="Pyotr Ilyich Tchaikovsky"
+              data-year="1876"
+              data-material="Romantic / Ballet"
+              data-description="Swan Lake is a famous ballet composed by Pyotr Ilyich Tchaikovsky. The music tells a dramatic and emotional story through beautiful melodies, expressive orchestration, and powerful musical themes. It captures feelings of love, mystery, sadness, and hope, reflecting the story of the enchanted swan princess. Its elegant dance music and unforgettable melodies have made it one of the most celebrated ballets in classical music history."
+            >
+              View Details →
+            </button>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <!-- =========================
+         ARTWORK MODAL
+    ========================== -->
+
+    <div class="art-modal" id="artModal">
+      <div class="modal-content">
+        <button
+          class="modal-close"
+          id="modalClose"
+          aria-label="Close music details"
+        >
+          &times;
+        </button>
+
+        <div class="modal-music-visual">
+          <div class="modal-record">
+            <div class="modal-record-center"></div>
+          </div>
+        </div>
+
+        <div class="modal-info">
+          <p class="eyebrow">MUSIC DETAILS</p>
+
+          <h2 id="modalTitle"></h2>
+
+          <p id="modalArtist"></p>
+
+          <p id="modalDetails"></p>
+
+          <p id="modalDescription"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
